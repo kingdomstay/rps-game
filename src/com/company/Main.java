@@ -78,7 +78,7 @@ public class Main {
                     p2_name = "Компьютер";
                     nameInit = true;
                 }
-                System.out.println("Для игры в RPS используйте значения \n R(камень), P(ножницы), S(бумага)");
+                System.out.println("Для игры в RPS используйте значения \n R(камень), P(бумага), S(ножницы)");
                 System.out.println("Ходит "+ p1_name +":");
                 player1 = playerWalks(1);
                 System.out.println("Ходит компьютер");
