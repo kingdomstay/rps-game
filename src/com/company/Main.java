@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Random;
@@ -42,6 +43,9 @@ public class Main {
      */
 
     public static void main(String[] args){
+        MenuGUI Menu = new MenuGUI();
+        Menu.initialize();
+
         // Init localization (import soon)
         localeData.put("RU", localeRU);
         localeData.put("EN", localeEN);
