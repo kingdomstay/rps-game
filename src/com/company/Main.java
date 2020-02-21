@@ -1,7 +1,5 @@
 package com.company;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
 
 import javax.swing.*;
 import java.awt.*;
@@ -42,9 +40,12 @@ public class Main {
     # ----
      */
 
-    public static void main(String[] args){
-        MenuGUI Menu = new MenuGUI();
-        Menu.initialize();
+    public static void main(String[] args) {
+
+//        MenuGUI menuGUI = new MenuGUI();
+//        menuGUI.init();
+
+        MenuGUI menuGUI = new MenuGUI();
 
         // Init localization (import soon)
         localeData.put("RU", localeRU);
